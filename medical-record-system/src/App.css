@@ -1,0 +1,112 @@
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f2f7fc;
+}
+
+.app {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  background: #075985;
+  color: white;
+  padding: 20px 6%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header h2 {
+  margin: 0;
+}
+
+nav {
+  display: flex;
+  gap: 25px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.container {
+  text-align: center;
+  padding: 70px 5%;
+  flex: 1;
+}
+
+.container h1,
+.form-container h1 {
+  color: #075985;
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  flex-wrap: wrap;
+  margin-top: 50px;
+}
+
+.card {
+  background: white;
+  padding: 30px;
+  width: 280px;
+  border-radius: 12px;
+  box-shadow: 0 3px 15px #00000015;
+  margin: 10px;
+}
+
+.card h3 {
+  color: #075985;
+}
+
+button {
+  background: #0284c7;
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  border-radius: 6px;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.form-container {
+  max-width: 600px;
+  width: 90%;
+  margin: 40px auto;
+  padding: 30px;
+  background: white;
+  border-radius: 12px;
+}
+
+.form-container form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.form-container input,
+.form-container select,
+.form-container textarea {
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+footer {
+  text-align: center;
+  padding: 25px;
+  background: #075985;
+  color: white;
+}
